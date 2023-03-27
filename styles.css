@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui;
+    border: 2px solid black;
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.RHS {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.left-sidebar {
+    background-color: red;
+}
+
+.header {
+    background-color: orange;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.right-sidebar {
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
